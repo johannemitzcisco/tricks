@@ -1,0 +1,4 @@
+Virtual Environment: python3 -m venv [env_dir]
+Activate Environment: source [env_dir]/bin/activate
+Manage Virtual Environments: pip install virtualenvwrapper
+
