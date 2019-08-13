@@ -1,1 +1,4 @@
-
+cd ~/projects
+python3 -m venv project
+source project/bin/activate
+pip install ansible
