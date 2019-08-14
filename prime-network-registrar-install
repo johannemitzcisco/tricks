@@ -1,0 +1,8 @@
+systemctl disable firewalld
+systemctl stop firewalld
+yum -y update
+yum -y install unzip java wget telnet krb5-libs cyrus-sasl-gssapi
+which java | xargs ls -la | awk -F' ' '{print $11}' | xargs ls -la | awk -F' ' '{print $11}' | awk -F'/bin' '{print $1}'
+scp root@nfs2:/nfs/Software/Cisco/PrimeNetworkRegistrar/* .
+tar -xzf cpnr_10_0_0_1-linux-x86_64.gtar.gz -C /tmp
+
