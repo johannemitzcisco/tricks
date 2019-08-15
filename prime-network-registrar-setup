@@ -1,0 +1,4 @@
+Create clusters (really just the servers).  Every server, including itself, must be mentioned on every other server that will be
+and HA (DNS or DHCP) pair.
+Create Policies
+Create DHCP Scope
