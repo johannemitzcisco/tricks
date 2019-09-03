@@ -2,3 +2,7 @@ Create clusters (really just the servers).  Every server, including itself, must
 and HA (DNS or DHCP) pair.
 Create Policies
 Create DHCP Scope
+
+
+Command Line API
+nrcmd {-R or -L} [-N user] [-P password]
