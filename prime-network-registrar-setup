@@ -6,3 +6,4 @@ Create DHCP Scope
 
 Command Line API
 nrcmd {-R or -L} [-N user] [-P password]
+zone sae.local addHost vmsservices 10.7.1.4
